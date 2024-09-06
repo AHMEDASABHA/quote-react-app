@@ -4,7 +4,9 @@ import "./App.css";
 import axios from "axios";
 
 function App() {
-  const [advice, setAdvice] = useState(0);
+  const [advice, setAdvice] = useState(
+    "The future belongs to those who believe in their dreams"
+  );
 
   const fetchAdvice = () => {
     axios
